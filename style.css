@@ -21,8 +21,8 @@ body {
     background: rgba(100 , 100 , 100 , 0.4);
     border-radius: 25px;
 
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
 }
 
 .header {
@@ -44,6 +44,7 @@ body {
 
     transform: scale(1);
     transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
 }
 
 .button:hover {
@@ -53,4 +54,13 @@ body {
 
 .button:active {
     transform: scale(0.9);
+}
+
+.update {
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.max {
+    margin-left: 195px;
 }

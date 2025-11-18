@@ -2,8 +2,8 @@ const counter = document.querySelector(".counter");
 const button = document.querySelector(".mainbtn");
 const morePerClick = document.querySelector(".morePerClick");
 
-let money = -1;
-let amountPerClick = 1;
+let money = 0;
+let amountPerClick = 10;
 
 let amountPerClickLevels = {
     1: { cost: 25, amount: 2 },
